@@ -6,7 +6,7 @@
 /*   By: rel-isma <rel-isma@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 15:42:18 by rel-isma          #+#    #+#             */
-/*   Updated: 2023/02/02 21:33:22 by rel-isma         ###   ########.fr       */
+/*   Updated: 2023/02/06 16:14:57 by rel-isma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,10 +55,7 @@ void	ra(t_stacks *stacks)
 void	rb(t_stacks *stacks)
 {
     if (stacks->b->top == NULL || stacks->b->top->next == NULL)
-    {
         return;
-    }
-
     t_node *node = stacks->b->top;
     while (node->next != NULL)
     {

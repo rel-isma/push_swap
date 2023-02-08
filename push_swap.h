@@ -6,7 +6,7 @@
 /*   By: rel-isma <rel-isma@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 15:15:41 by rel-isma          #+#    #+#             */
-/*   Updated: 2023/02/03 20:47:25 by rel-isma         ###   ########.fr       */
+/*   Updated: 2023/02/06 21:25:28 by rel-isma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,5 +48,6 @@ void	rrr(t_stacks *stacks);
 void	rra(t_stacks *stacks);
 void	push(t_stack *a, int item);
 int		pop(t_stack *a);
+void  ft_free(char ***p, int oldj, int oldi);
 
 #endif
